@@ -1,0 +1,123 @@
+body {
+    border: 5px solid black;
+    padding: 20px;
+    height: 135vh;
+    object-fit: cover;
+    margin: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-image: url('/lab2/image/yeh.jpg'); 
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: #181818; 
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: left;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header a:hover {
+    color: #ffffff;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    width: 100vw; 
+    height: 100vh; 
+    color: #000000; 
+}
+
+blockquote {
+    font-family: 'KaushanScript-Regular', cursive;
+    font-style: italic;
+    border-left: 5px solid #4CAF50;
+    padding-left: 15px;
+    margin: 20px 0;
+    color: #000000;
+}
+
+main p {
+    font-family: 'Montserrat', sans-serif;
+    border-left: 5px solid #000000;
+    padding-left: 15px;
+    margin: 20px 0;
+    color: #000000;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+a {
+    color: #0a6063;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0a6063;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 125px;
+}
+
+.vertical-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vertical-menu li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+}
