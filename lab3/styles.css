@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/lab3/img/mc.avif'); /* Replace with your PNG file path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 0;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(8px); /* Adjust the blur intensity as needed */
+    z-index: -1;
+}
+header{
+    background-image: linear-gradient(50deg, #1fac3eb9 30%, #FFFFFF 50%, #1fac3eb9 70%);
+    color: #1fac3e;
+    text-align: left;
+    padding: 10px;
+}
+header h1{
+    color: #000000;
+    margin-bottom: 5px;
+}
+header p{
+    margin-top: 0px;
+}
+nav{
+    background-color: #1fac3e;
+    position: relative;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+.container {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1); 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.sidebar{
+    width: 25%;
+    padding: 15px;
+}
+main{
+    width: 75%;
+    padding: 15px;
+}
+.mission, .speaker, .tickets{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #1fac3e;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #1fac3e;
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    right: 0;
+    top: 100%;
+    z-index: 1000;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu li{
+    margin: 0;
+    padding: 5px;
+    border-bottom: 1px solid #17802d;
+}
+.dropdown-menu li a{
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.dropdown-menu li:last-child{
+    border-bottom: none;
+}
+.wrapper{
+    max-width: 850px;
+    margin: 0 auto;
+    border: solid 2px #000000;
+}
+.picture{
+    width: 60px;
+    height: 60px;
+}
+.mission h2, .speaker h3, .tickets h2{
+    color: #FF0000;
+}
+.speaker h2{
+    border-bottom: solid 3px #FF0000;
+    padding-bottom: 15px;
+}
+.tickets h2{
+    border-top: solid 3px #FF0000;
+    padding-top: 15px;
+}
+blockquote{
+    font-style: italic;
+}
+.speaker img{
+    float: right;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.tickets{
+    list-style-type: circle;
+}
+header img{
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.logo p{
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+}
+span{
+    text-shadow: 2px 2px 5px #044611;
+}
